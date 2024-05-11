@@ -93,7 +93,6 @@ Figma
   <div style="width: 244px; height: 26px; left: 81px; top: 531px; position: absolute; color: #2400FF; font-size: 30px; font-family: Just Another Hand; font-weight: 400; word-wrap: break-word">EVENTS TO REGISTER</div>
   <div style="width: 257px; left: 90px; top: 489px; position: absolute; color: #2400FF; font-size: 30px; font-family: Just Another Hand; font-weight: 400; word-wrap: break-word">EMAIL ID</div>
 </div>
-
 ## OUTPUT:
 ![01](https://github.com/BharathJayachandran/Figma/assets/122089525/d54a05c4-46a3-4a02-927e-a9bc615f8f65)
 ![02](https://github.com/BharathJayachandran/Figma/assets/122089525/0f5cfec6-d898-42e3-a0f7-0c5f132945a6)
