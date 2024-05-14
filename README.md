@@ -33,174 +33,154 @@ Publish the website in the given URL.
 Figma
 
 ## CODE:
-Home.html:
+import './Iphone1415ProMax1.css'
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"> <!-- Linking to an external CSS file -->
-</head>
-<body>
-    <div class="container" style="width: 360px; height: 640px; position: relative ">
-        <img src="mobile2.jpg" style="height: 650px; width: 370px; border-radius: 50px; position: absolute;" alt=""> <br> <br><br>
-        <img src="logo.jpg"  style="position: absolute; left: 20%;">
-        <h1>ADMISSIONS</h1>
-        <br><br><br><br><br><br><br>
-        <form action="" method="post">
-            <a href="admission.html">ADD ADMISSION</a>
-            <a href="login.html">LOGIN</a>
-            <a href="https://www.saveetha.ac.in/">ABOUT US</a>
-        </form>
+export default function Iphone1415ProMax1() {
+  return (
+    <div className="iphone-1415-pro-max-1">
+      <div className="download-2">
+      </div>
+      <div className="download-1">
+      </div>
+      <div className="images-1">
+      </div>
+      <div className="yoga-day-event">
+        YOGA DAY EVENT 
+      </div>
+      <div className="container-2">
+        <div className="container">
+          <span className="login">
+            Login
+          </span>
+        </div>
+        <div className="container-1">
+          <span className="register">
+            Register
+          </span>
+        </div>
+      </div>
     </div>
-</body>
-</html>
+  )
+}
 
-Admission.html:
+import './Iphone1415ProMax3.css'
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"> <!-- Linking to an external CSS file -->
-</head>
-<body>
-    <div class="container" style="width: 360px; height: 640px; position: relative ">
-        <img src="mobile2.jpg" style="height: 630px; width: 370px; border-radius: 50px; position: absolute;" alt=""> <br> <br><br>
-        <img src="logo.jpg"  style="position: absolute; left: 20%;"> <br> <br>
-        <form action="" method="post">
-            
-            <input type="text" name="" id="name" style="height: 30px;" placeholder="Name">
-            <br>
-            <br>
-            <input type="text" name="" id="name" style="height: 30px;" placeholder="Dept">
-            <br><br>
-            <input type="text" name="" id="name" style="height: 30px;" placeholder="Mobile Number">
-            <br>
-            <br>
-            <input type="text" name="" id="name" style="height: 30px;" placeholder="gender">
-            <br><br>
-            <input type="text" name="" id="name" style="height: 30px;" placeholder="Email">
-            <br>
-            <br>
-            <a href="thank.html">LOGIN</a>
-        </form>
-        </form>
+export default function Iphone1415ProMax3() {
+  return (
+    <div className="iphone-1415-pro-max-3">
+      <div className="download-2">
+      </div>
+      <div className="yoga-day-event">
+        YOGA DAY EVENT 
+      </div>
+      <div className="container-2">
+        <span className="meditation">
+          MEDITATION
+        </span>
+      </div>
+      <div className="container-4">
+        <span className="breathing">
+          BREATHING
+        </span>
+      </div>
+      <div className="container">
+        <span className="asanas">
+          ASANAS
+        </span>
+      </div>
+      <div className="container-1">
+        <span className="yogging-jogging">
+          YOGGING JOGGING
+        </span>
+      </div>
+      <div className="container-3">
+        <span className="yoga-dance">
+          YOGA DANCE
+        </span>
+      </div>
     </div>
-</body>
-</html>
+  )
+}
 
-Login.html:
+import './Iphone1415ProMax4.css'
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"> <!-- Linking to an external CSS file -->
-</head>
-<body>
-    <div class="container" style="width: 360px; height: 640px; position: relative ">
-        <img src="mobile2.jpg" style="height: 630px; width: 370px; border-radius: 50px; position: absolute;" alt=""> <br> <br><br>
-        <img src="logo.jpg"  style="position: absolute; left: 20%;"> <br> <br> <br> <br>
-        <form action="" method="post">
-            <input type="text" name="" id="name" style="height: 30px;" placeholder="Register Number">
-            <br>
-            <br>
-            <input type="text" name="" id="name" style="height: 30px;" placeholder="Password">
-
-            <a href="thank.html">LOGIN</a>
-        </form>
+export default function Iphone1415ProMax4() {
+  return (
+    <div className="iphone-1415-pro-max-4">
+      <div className="download-2">
+      </div>
+      <div className="registrttion-form">
+        REGISTRTTION FORM
+      </div>
+      <div className="container-1">
+        <div className="name">
+          NAME
+        </div>
+        <div className="age">
+          AGE
+        </div>
+        <div className="department">
+          DEPARTMENT
+        </div>
+        <div className="email-id">
+          E-MAIL ID
+        </div>
+        <div className="gender">
+          GENDER
+        </div>
+        <div className="register-number">
+          REGISTER NUMBER
+        </div>
+        <span className="mobile-number">
+          MOBILE NUMBER
+        </span>
+      </div>
+      <div className="container">
+        <span className="register">
+          Register
+        </span>
+      </div>
     </div>
-</body>
-</html>
+  )
+}
 
-Thanks.html:
+import './Iphone1415ProMax5.css'
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"> <!-- Linking to an external CSS file -->
-</head>
-<body>
-    <div class="container" style="width: 360px; height: 640px; position: relative ">
-        <img src="mobile2.jpg" style="height: 630px; width: 370px; border-radius: 50px; position: absolute;" alt=""> <br> <br><br>
-        <img src="logo.jpg"  style="position: absolute; left: 20%; right: 20px;"> <br> <br> <br> <br>
-        
-        <h1 >THANK FOR REGISTERING AND LOGIN TO SAVEETHA COLLEGE</h1>
-
+export default function Iphone1415ProMax5() {
+  return (
+    <div className="iphone-1415-pro-max-5">
+      <div className="download-2">
+      </div>
+      <div className="container-1">
+        <div className="container-2">
+          <div className="thank-you">
+            THANK YOU
+          </div>
+          <span className="we-are-all-eagerly-waiting-for-your-participation-in-the-sports-event">
+            WE ARE ALL EAGERLY WAITING FOR YOUR PARTICIPATION IN THE SPORTS EVENT
+          </span>
+        </div>
+        <div className="contact-us">
+          CONTACT US
+        </div>
+        <div className="saveethaengineringcollege-gmail-com">
+          SAVEETHAENGINERINGCOLLEGE@GMAIL.COM
+        </div>
+        <div className="phone">
+          PHONE
+        </div>
+        <span className="container">
+          9234765458
+        </span>
+      </div>
+      <div className="container">
+        <span className="container-1">
+          8762344567
+        </span>
+      </div>
     </div>
-</body>
-</html>
-
-style.css:
-
-h1 {
-    font-size: 32px; /* Decreased font size for mobile view */
-    color: blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
-    top: 130px;
-    left: 90px;
-    right: 20px;
-    margin-top: 20px; /* Adjusted margin for better spacing */
+  )
 }
-
-a{
-    border-radius: 8px; /* Reduced border radius for a more subtle effect */
-    color: rgb(246, 20, 174);
-    padding: 10px 20px; /* Increased padding for better touch interaction */
-    font-size: 18px; /* Adjusted font size for mobile view */
-    padding: 30px;
-}
-
-/* Styled the outer box to resemble a mobile */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #06d8ef;
-}
-
-.container {
-    width: 80vw; /* Adjusted width for better visibility */
-    max-width: 360px; /* Limited maximum width for mobile devices */
-    height: auto;
-    padding: 20px;
-    background-color: #f1e8f1;
-    border-radius: 13px;
-    color: blueviolet;
-}
-
-/* Centered the content */
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    padding: 30px;
-}
-
-img {
-    height: 50px; /* Adjusted image height for better fit */
-    margin-bottom: 20px; /* Added margin for better spacing */
-}
-
-a:hover{
-    text-decoration: none;
-}
-
-
 
 ## OUTPUT:
 
